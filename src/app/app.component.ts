@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NgForm } from '@angular/forms';
 import { weatherObject } from './models/weather.model';
 import { WeatherService } from './services/weather.service';
 
@@ -21,6 +22,7 @@ ngOnInit(): void {
   this.cityName = '';
   }
   onSubmit(){
+   
     this.retrieveWeatherInfo(this.cityName);
     this.cityName = '';
   }

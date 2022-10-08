@@ -143,3 +143,24 @@ body{
     text-align: center;
     font-size: 0.8em;
 }
+
+@media screen and (max-width : 767px) {
+    .container{
+        width: 300px;
+        height: 60vh;
+        border-radius: 20px;
+        background-color: var(--blue-2);
+        box-shadow: 10px 10px 10px var(--shadow-dark);
+    }
+    .info-block-label span{
+        color: var(--white);
+        font-size: 0.6em;
+    }
+    .info-block-label img{
+        width: 1.2em;
+    
+    }
+    .info-block-value{
+        font-size: 0.8em;
+    }
+}
